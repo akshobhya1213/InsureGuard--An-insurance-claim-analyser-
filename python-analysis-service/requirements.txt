@@ -1,0 +1,9 @@
+Flask==3.0.3
+python-dotenv==1.0.1
+ibm-watson==8.1.0
+ibm-cloud-sdk-core==3.20.1
+requests==2.32.3
+opencv-python-headless==4.10.0.84
+numpy==1.26.4
+inference-sdk==0.9.17
+gunicorn==22.0.0
