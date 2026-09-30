@@ -14,6 +14,7 @@ public class KafkaTopicConfig {
 
     @Bean
     public NewTopic reportSubmittedTopic() {
+
         return TopicBuilder.name(reportSubmittedTopic)
                 .partitions(3)
                 .replicas(1)
